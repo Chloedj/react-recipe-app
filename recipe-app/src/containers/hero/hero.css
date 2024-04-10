@@ -12,3 +12,24 @@
     
         margin-right: 5rem;
 }
+
+.recipe__hero-content h1 {
+    font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 80px;
+        letter-spacing: 0em;
+}
+
+.recipe__hero-content p {
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7F7d7D;
+        margin-top: 37px
+}
+
+.recipe__hero-content__span {
+    color: var(--color-secondary);
+}

@@ -16,3 +16,17 @@ a {
   color: black;
   text-decoration: none;
 }
+
+button {
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  background-color: var(--color-secondary);
+  border: none;
+  padding: 15px 20px;
+  margin-top: 61px;
+}
+
+.accent {
+  color: var(--color-secondary);
+}
