@@ -1,10 +1,12 @@
 .recipe__hero {
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
+    
 }
 
 .recipe__hero-content {
-    flex: 1;
+    flex: 2;
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -39,3 +41,60 @@
     padding: 15px 20px;
     margin-top: 61px;
 }
+
+.recipe__hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 590px;
+    width: 658px;
+}
+
+@media screen and (max-width: 1050px) {
+    .recipe__hero {
+        flex-direction: column;
+    }
+
+    .recipe__hero-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .recipe__hero-content h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .recipe__hero-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .recipe__hero-content__people {
+        flex-direction: column;
+    }
+
+    .recipe__hero-content__people p {
+        margin: 0;
+    }
+
+.recipe__hero-image {
+   display: none;
+    
+}
+}
+
+@media screen and (max-width: 490px) {
+    .recipe__hero-content h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .recipe__hero-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+   }
