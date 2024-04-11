@@ -2,18 +2,18 @@
     display: flex;
     flex-direction: row;
     margin: 0 auto;
+    position: relative;
+    gap: 10px;
     
 }
 
 .recipe__hero-content {
-    flex: 2;
+    flex: 1;
         display: flex;
         justify-content: center;
         align-items: flex-start;
         flex-direction: column;
-    
-        margin-right: 5rem;
-}
+        }
 
 .recipe__hero-content h1 {
     font-family: var(--font-family);
@@ -21,7 +21,13 @@
         font-size: 64px;
         line-height: 80px;
         letter-spacing: 0em;
+        padding-top: 50px;
 }
+
+.h1-block {
+    display: block;
+    margin-bottom: 10px;
+    }
 
 .recipe__hero-content p {
     font-family: var(--font-family);
@@ -35,11 +41,12 @@
 .button {
     border-radius: 10px;
     color: white;
-    font-weight: 700;
+    font-weight: 650;
     background-color: var(--color-secondary);
     border: none;
-    padding: 15px 20px;
+    padding: 18px 30px;
     margin-top: 61px;
+    letter-spacing: .8px;
 }
 
 .recipe__hero-image {
@@ -49,6 +56,26 @@
     align-items: center;
     height: 590px;
     width: 658px;
+    padding: 20px 0px;
+    
+
+}
+
+.Tomato {
+    position: absolute;
+    top: 30px;
+    left: 800px;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.Garlic {
+    position: absolute;
+    top: 500px;
+    left: 550px;
+    height: 100px;
+    width: 100px;
 }
 
 @media screen and (max-width: 1050px) {
