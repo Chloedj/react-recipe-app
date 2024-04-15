@@ -12,7 +12,7 @@ const Discover = () => {
       <p>Check our most popular recipes of this week</p>
       </div>
       <div className='recipe__discover-title-button'>
-        <button type='button'>See All</button>
+        <button type='button'><a href="#home">See All</a></button>
       </div>
     </div>
     <div className='recipe__discover-cards'>

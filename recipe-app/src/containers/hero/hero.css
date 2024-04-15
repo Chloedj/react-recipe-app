@@ -24,6 +24,8 @@
         padding-top: 50px;
 }
 
+
+
 .h1-block {
     display: block;
     margin-bottom: 10px;
@@ -47,6 +49,10 @@
     padding: 18px 30px;
     margin-top: 61px;
     letter-spacing: .8px;
+}
+
+.recipe__hero-content__input a{
+    color:white;
 }
 
 .recipe__hero-image {

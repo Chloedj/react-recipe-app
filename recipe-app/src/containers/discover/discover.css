@@ -44,6 +44,10 @@ button {
         
 }
 
+.recipe__discover-title-button a {
+    color: white;
+}
+
 .recipe__discover-cards {
     display: flex;
     justify-content: center;
