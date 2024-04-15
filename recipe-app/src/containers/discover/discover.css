@@ -69,3 +69,34 @@ button {
     margin-bottom: 20px;
       
 }
+
+@media screen and (max-width: 1050px) {
+    .recipe__discover-cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            max-width: 1050px;
+            gap: 5px;
+    
+        }
+}
+
+@media screen and (max-width: 650px) {
+    .recipe__discover-title-content h2 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+        button {
+            border-radius: 20px;
+            color: white;
+            font-weight: 650;
+            background-color: var(--color-secondary);
+            border: none;
+            padding: 20px 40px;
+            letter-spacing: .8px;
+            font-size: 15px;
+            margin-right: 10px;
+    
+        }
+}

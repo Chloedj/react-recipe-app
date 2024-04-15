@@ -117,6 +117,13 @@
    display: none;
     
 }
+.Tomato {
+    display: none;
+}
+
+.Garlic {
+    display: none;
+}
 }
 
 @media screen and (max-width: 490px) {
