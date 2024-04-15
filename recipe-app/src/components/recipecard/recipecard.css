@@ -1,0 +1,40 @@
+.recipe__card-container {
+    width: 300px;
+    
+}
+
+.recipe__card-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.recipe__card-image img {
+    width: 100%;
+    display: block;
+}
+
+.recipe__card-overlay-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+       color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 8px;
+}
+
+.recipe__card-overlay-details p {
+    flex: 50%;
+    
+    margin: 4px 0;
+    text-align: center;
+}
+
+.recipe__card-image-icon {
+    height: 15px;
+    width: 15px;
+}
