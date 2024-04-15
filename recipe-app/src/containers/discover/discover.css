@@ -1,0 +1,46 @@
+.recipe__discover-title {
+    display: flex;
+    margin-top: 100px;
+}
+
+.recipe__discover-title-content {
+    flex: 1;
+}
+
+.recipe__discover-title-content h2 {
+    font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 46px;
+        line-height: 80px;
+        letter-spacing: 0em;
+        padding-top: 50px;
+}
+
+.recipe__discover-title-content p {
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7F7d7D;
+        margin-top: 0px
+}
+.recipe__discover-title-button {
+    display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        
+    }
+
+button {
+    border-radius: 20px;
+        color: white;
+        font-weight: 650;
+        background-color: var(--color-secondary);
+        border: none;
+        padding: 20px 40px;
+        letter-spacing: .8px;
+        font-size: 20px;
+        margin-right: 100px;
+        
+}
+
