@@ -24,9 +24,10 @@ const RecipeCard = ({ imgUrl, time, serving, difficulty, title }) => {
           </div>
         </div>
       </div>
+      <div className='recipe__card-details'>
       <h3>{title}</h3>
       <a href="#home">View Recipe</a>
-    </div>
+    </div></div>
   );
 }
 

@@ -19,7 +19,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.8);
        color: var(--color-accent);
        font-size: 16px;
     display: flex;
@@ -49,5 +49,31 @@
 
 .recipe__card-image-icon {
     margin-right: 8px;
+   
+}
+
+.recipe__card-details {
+    padding: 30px 10px;
+}
+
+.recipe__card-details h3 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.recipe__card-details a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: var(--color-secondary);
+    text-align: left;
+    text-decoration: underline;
    
 }
