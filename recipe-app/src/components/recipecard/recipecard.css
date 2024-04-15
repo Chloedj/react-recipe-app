@@ -19,8 +19,9 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.5);
-       color: white;
+    background: rgba(255, 255, 255, 0.5);
+       color: var(--color-accent);
+       font-size: 16px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -34,7 +35,19 @@
     text-align: center;
 }
 
-.recipe__card-image-icon {
-    height: 15px;
+.recipe__card-overlay-details .recipe__card-image-icon {
     width: 15px;
+       height: 15px;
+}
+
+.recipe__card-overlay-details div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
+}
+
+.recipe__card-image-icon {
+    margin-right: 8px;
+   
 }

@@ -11,14 +11,17 @@ const RecipeCard = ({ imgUrl, time, serving, difficulty, title }) => {
         <img src={imgUrl} alt='recipe_image' />
         <div className='recipe__card-overlay-details'>
           <div>
-            <img src={timeicon} alt='time' />
-            <p>{time} mins</p></div>
+            <img className='recipe__card-image-icon' src={timeicon} alt='time icon' />
+            <p>{time} mins</p>
+          </div>
           <div>
-            <img src={servingicon} alt='serving' />
-            <p>{serving} Servings</p></div>
+            <img className='recipe__card-image-icon' src={servingicon} alt='serving icon' />
+            <p>{serving} Servings</p>
+          </div>
           <div>
-            <img src={difficultyicon} alt='difficulty' />
-            <p>{difficulty}</p></div>
+            <img className='recipe__card-image-icon' src={difficultyicon} alt='difficulty icon' />
+            <p>{difficulty}</p>
+          </div>
         </div>
       </div>
       <h3>{title}</h3>
