@@ -1,0 +1,31 @@
+.about__container {
+    margin-top: 200px;
+    height: 100vh;
+    width: 100%;
+    background-image: inherit;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__container-content {
+    position: absolute;
+    width: 578px;
+    height: 368px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.about__container-content h3 {
+    font-size: 46px;
+    padding-top: 57px;
+    padding-left: 45px;
+}
+
+.about__container-content p {
+    font-size: 20px;
+    padding: 40px 45px;
+}
