@@ -1,7 +1,7 @@
 import React from 'react'
 import './communityrecipe.css'
 
-const CommunityRecipe = () => {
+const CommunityRecipe = ({author, authorimage, description, recipeImageUrl}) => {
   return (
     <div>
       CommunityRecipe

@@ -1,6 +1,7 @@
 import React from 'react'
 import './community.css'
 import CommunityRecipe from '../../components/communityrecipe/communityrecipe'
+import recipeData from './recipedata';
 
 const Community = () => {
   return (
@@ -9,7 +10,9 @@ const Community = () => {
         <h3>From Our Community</h3>
         </div>
       <div className='community__container-cards'>
-        <CommunityRecipe />
+        {recipeData.map((project) => (
+          <CommunityRecipe key={project.id} {...project} />
+        ))}
       </div>
     </div>
   )
