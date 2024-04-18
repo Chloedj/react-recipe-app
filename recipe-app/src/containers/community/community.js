@@ -3,8 +3,11 @@ import './community.css'
 
 const Community = () => {
   return (
-    <div>
-      Community
+    <div className='community__container'>
+      <div className='community__container-title'>
+        <h3>From Our Community</h3>
+        </div>
+      
     </div>
   )
 }
