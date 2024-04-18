@@ -14,6 +14,10 @@ const About = () => {
       </div>
           </div>
       </div>
+      <div className='about__container-tagline'>
+        <p>50+ Quick Food Recipes<br /> That Are Easy To Do!</p>
+        
+      </div>
     </div>
   );
 }
