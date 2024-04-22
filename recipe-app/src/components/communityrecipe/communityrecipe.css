@@ -4,6 +4,7 @@
         border-radius: 20px;
         overflow: hidden;
         margin: 5px;
+        font-family: var(--font-family);
 
 }
 
@@ -35,6 +36,35 @@
 
 }
 
+.community__recipe-description img {
+    height: 20px;
+    margin-bottom: 7px;
+}
+
 .community__recipe-description p {
     font-size: 16px;
+}
+
+.community__recipe-image {
+    padding: 20px 32px;
+    }
+
+.community__recipe-image img {
+    border-radius: 10px;
+}
+
+.community__recipe-social {
+    display: flex;
+    align-items: center;
+    padding: 20px 32px;
+}
+
+.community__recipe-social img {
+    width: 20px;
+}
+
+.community__recipe-social h5 {
+    font-size: 20px;
+    margin: 0 20px 0 5px;
+    
 }

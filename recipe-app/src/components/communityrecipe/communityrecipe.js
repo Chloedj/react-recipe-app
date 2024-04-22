@@ -21,10 +21,11 @@ const CommunityRecipe = ({author, authorimage, name, description, recipeImageUrl
       <div className='community__recipe-image'>
       <img src={recipeImageUrl} alt='recipe' />
       </div>
+      <div className='community__recipe-social'>
       <img src={like} alt='like' />
       <h5>{likes}</h5>
       <img src={share} alt='share' />
-      <h5>Share</h5>
+      <h5>Share</h5></div>
     </div>
   )
 }
