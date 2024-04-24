@@ -29,4 +29,7 @@
         margin-top: 50px;
     }
     
+    .community__container-stripe img {
+        display: none;
+}
 }
