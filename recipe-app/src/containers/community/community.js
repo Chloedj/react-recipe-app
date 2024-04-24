@@ -2,6 +2,7 @@ import React from 'react'
 import './community.css'
 import CommunityRecipe from '../../components/communityrecipe/communityrecipe'
 import recipeData from './recipedata';
+import stripe from '../../assets/stripe.png'
 
 const Community = () => {
   return (
@@ -13,6 +14,9 @@ const Community = () => {
         {recipeData.map((project) => (
           <CommunityRecipe key={project.id} {...project} />
         ))}
+      </div>
+      <div className='community__container-stripe'>
+        <img src={stripe} alt='stripe' />
       </div>
     </div>
   )
